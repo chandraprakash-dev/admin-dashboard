@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
-
+p {
+    margin: 0;
+}
 
 body {
     height: 100vh;
-    font-family: "Roboto", sans-serif;
+    font-family: sans-serif;
 }
 
 .main-container {
@@ -23,10 +25,30 @@ body {
     flex: 1;
 }
 
+.dashboard-bar {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.dashboard-bar .icon {
+    justify-self: center;
+}
+
 .icon {
-    width: 25px;
+    width: 1.5rem;
     height: auto;
     filter: brightness(0) invert(1);
+}
+
+.dashboard-header .icon {
+    width: 3rem;
+}
+
+.main-menu {
+    margin: 50px 0;
 }
 
 .content-container {
