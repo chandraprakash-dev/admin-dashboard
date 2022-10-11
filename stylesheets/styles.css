@@ -118,7 +118,7 @@ body {
 
 .bottom-section .right {
     flex: 1;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .bottom-section .logo {
@@ -132,11 +132,11 @@ body {
 }
 
 .name {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 button {
-    width: 100px;
+    width: 90px;
     padding: 10px 15px;
     border: none;
     border-radius: 20px;
